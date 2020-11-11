@@ -1,0 +1,144 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+    color: #201b2d;
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+}
+
+div, p, input, button, form, span, a,ul,li{
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    font-weight: 700;
+}
+
+p{
+    line-height: 1.6em;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.header{
+    background: rgba(78,192,254,1);
+    background: -moz-linear-gradient(-45deg, rgba(78,192,254,1) 0%, rgba(55,144,217,1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(78,192,254,1)), color-stop(100%, rgba(55,144,217,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(78,192,254,1) 0%, rgba(55,144,217,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(78,192,254,1) 0%, rgba(55,144,217,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(78,192,254,1) 0%, rgba(55,144,217,1) 100%);
+    background: linear-gradient(135deg, rgba(78,192,254,1) 0%, rgba(55,144,217,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ec0fe', endColorstr='#3790d9', GradientType=1 );
+    padding-top: 100px;
+    color: white;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.offer{
+    margin-top: 155px;
+    width: 590px;
+}
+.title{
+    font-size: 37px;
+
+}
+.title span{
+    font-size: 59px;
+}
+.intro{
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 46px;
+    margin-bottom: 44px;
+    width: 400px;
+}
+.btn{
+    font-family: 'Montserrat', sans-serif;
+    background: #ffd429;
+    color: black;
+    display: block;
+    width: 220px;
+    padding: 20px 0;
+    text-align: center;
+    text-decoration: none;
+}
+
+.earth{
+    margin-top: 20px;
+}
+.section-title{
+    font-size: 30px;
+}
+.learn{
+    padding-top: 110px;
+    padding-bottom: 120px;
+    text-align: center;
+}
+.skills{  
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+.skill-title{
+    font-size: 19px;
+}
+.skill-text{
+    margin-top: 17px;
+}
+.skill{
+    width: 300px;
+    
+}
+.skill-free{
+    width: 270px;
+}
+.icon{
+    margin-bottom: 30px;
+}
+.mail{
+    background: #ecf2f8;
+    padding: 100px 0;
+    text-align: center;
+}
+.input{
+    width: 340px;
+    height: 48px;
+    border: 1px solid #bbbbbb;
+    font-size: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    padding-left: 25px;
+}
+.btn-form{
+    border: 0;
+    cursor: pointer;
+    width: 340px;
+}
+.form{
+    margin-bottom: 15px;
+}
+.f-m{
+    margin-top: 60px;
+}
+.but{
+    display: flex;	
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.credits{
+    font-size: 14px;
+    color: white;
+    margin: 0;
+    text-align: center;
+}
+.footer{
+    padding: 65px 0;
+    background: #164d7a;
+}
